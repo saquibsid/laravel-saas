@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+    "content-hash": "f0d1994cc95df0fafee94bfffee663af",
     "packages": [
         {
             "name": "brick/math",
@@ -5289,6 +5289,74 @@
                 }
             ],
             "time": "2023-07-31T07:08:24+00:00"
+        },
+        {
+            "name": "tenancy/framework",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tenancy/framework.git",
+                "reference": "9147522ee8b0fc575fd22c3895ed5fee85f7cc47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tenancy/framework/zipball/9147522ee8b0fc575fd22c3895ed5fee85f7cc47",
+                "reference": "9147522ee8b0fc575fd22c3895ed5fee85f7cc47",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^9.0 | ^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tenancy\\Providers\\TenancyProvider"
+                    ],
+                    "aliases": {
+                        "Tenancy": "Tenancy\\Facades\\Tenancy"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tenancy\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arlon Antonius",
+                    "email": "opensource@arlon.dev",
+                    "homepage": "https://arlon.dev"
+                }
+            ],
+            "description": "Creating multi tenant saas from your Laravel app with ease",
+            "keywords": [
+                "aws",
+                "gce",
+                "laravel",
+                "multi-tenant",
+                "saas",
+                "tenancy"
+            ],
+            "support": {
+                "source": "https://github.com/tenancy/framework/tree/v2.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/tenancy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/tenancy",
+                    "type": "opencollective"
+                }
+            ],
+            "time": "2023-02-14T18:15:16+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
